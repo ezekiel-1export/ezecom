@@ -11,7 +11,7 @@
 }
 
 .ez-bg {
-    background-color: #111111; 
+    background-color: #111122; 
 }
 
 .filter-white {
@@ -20,4 +20,11 @@
 
 .filter-blur {
     filter: blur(10px);
+}
+
+.border-left-yellow {
+    border-left:solid 10px #fec234;
+}
+.border-right-yellow {
+    border-right:solid 10px #fec234;
 }

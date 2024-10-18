@@ -1,0 +1,19 @@
+.ez-primary {
+    background-color: #fec234; 
+}
+
+.ez-secondary {
+    background-color: #333333; 
+}
+
+.ez-highlight {
+    background-color: #eeeeee; 
+}
+
+.ez-bg {
+    background-color: #2e3136; 
+}
+
+.filter-white {
+    filter: brightness(0) invert(1);
+}

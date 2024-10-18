@@ -7,6 +7,10 @@
     margin-inline: auto; 
     width: fit-content;
 }
+.first-layer{
+    position: fixed;
+    z-index: 1;
+}
 .second-layer {
     position: sticky; 
     top:55px; 
@@ -18,11 +22,30 @@
 }
 .third-layer {
     background-image: url('../images/our_mission.jpg');
+    background-size: cover;
     position: sticky; 
     top:60px; 
     left:0; 
     right: 0; 
     z-index: 4; 
+    margin-inline: auto; 
+    width: fit-content;
+}
+.fourth-layer {
+    position: sticky; 
+    top:50px; 
+    left:0; 
+    right: 0; 
+    z-index: 4; 
+    margin-inline: auto; 
+    width: fit-content;
+}
+.fifth-layer {
+    position: sticky; 
+    top:30x; 
+    left:0; 
+    right: 0; 
+    z-index: 5; 
     margin-inline: auto; 
     width: fit-content;
 }
@@ -32,7 +55,16 @@
     right: 10px;
     z-index: 999;
 }
-.a{
-    position: fixed;
-    z-index: -10;
+.carousel-caption {
+    transform: translateY(50%);
+    bottom: 48% !important;
+    left: 50% !important;
+}
+.fade-out-abimation {
+    animation: fade-out linear;
+    animation-timeline: view(80vh 80vh);
+}
+@keyframes fade-out {
+    from {scale: 1; opacity: 1;}
+    to {scale: 0; opacity:0;}
 }

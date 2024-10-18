@@ -11,9 +11,13 @@
 }
 
 .ez-bg {
-    background-color: #2e3136; 
+    background-color: #111111; 
 }
 
 .filter-white {
     filter: brightness(0) invert(1);
+}
+
+.filter-blur {
+    filter: blur(10px);
 }
